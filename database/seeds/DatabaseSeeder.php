@@ -14,7 +14,8 @@ class DatabaseSeeder extends Seeder {
         'permissions',
         'role_user',
         'roles',
-        'users'
+        'users',
+        'profiles'
     );
 
 	/**
@@ -30,7 +31,7 @@ class DatabaseSeeder extends Seeder {
 
         $this->call('ConstantsTableSeeder');
         
-		// $this->call('UserTableSeeder');
+		$this->call('UsersTableSeeder');
 	}
 
 	public function cleanDatabase()

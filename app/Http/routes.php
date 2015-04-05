@@ -14,6 +14,7 @@
 Route::get('/', 'PagesController@index');
 
 Route::get('home', 'HomeController@index');
+Route::get('stats', ['as' => 'stats_path', 'uses' => 'PagesController@stats', 'middleware' => 'auth']);
 
 Route::get('login', ['as' => 'login_path', 'uses' => 'Auth\AuthController@getLogin']);
 Route::get('register', ['as' => 'register_path', 'uses' => 'Auth\AuthController@getRegister']);

@@ -13,6 +13,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="/home">Home</a></li>
+                <li><a href="/stats">Stats</a></li>
                 {{--@if ( $user )--}}
                     {{--<li><a href="#">{{ $user->name }}</a></li>--}}
                 {{--@endif--}}

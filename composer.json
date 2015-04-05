@@ -18,7 +18,8 @@
 		"behat/mink": "~1.6@dev",
 		"behat/mink-extension": "~2.0@dev",
 		"laracasts/behat-laravel-extension": "dev-master",
-        "fzaninotto/faker": "1.4.*@dev"
+        "fzaninotto/faker": "1.4.*@dev",
+		"laracasts/generators": "~1.1"
 	},
 	"autoload": {
 		"classmap": [
