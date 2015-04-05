@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace popstat;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -10,7 +10,7 @@ class Permission extends Model {
 
     public function roles()
     {
-        return $this->belongsToMany('App\Role')->withTimestamps();
+        return $this->belongsToMany('popstat\Role')->withTimestamps();
     }
 
 }

@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: popstat
+        psr4_prefix: popstat
         src_path: app

@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace popstat;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -33,7 +33,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 
 	public function roles()
     {
-        return $this->belongsToMany('App\Role')->withTimestamps();
+        return $this->belongsToMany('popstat\Role')->withTimestamps();
     }
 
     public function assignRole($role)

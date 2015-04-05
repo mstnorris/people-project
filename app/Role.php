@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace popstat;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -10,12 +10,12 @@ class Role extends Model {
 
     public function users()
     {
-        return $this->belongsToMany('App\User');
+        return $this->belongsToMany('popstat\User');
     }
 
     public function permissions()
     {
-        return $this->belongsToMany('App\Permission');
+        return $this->belongsToMany('popstat\Permission');
     }
 
 }

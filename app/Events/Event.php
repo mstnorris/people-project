@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace popstat\Events;
 
 abstract class Event {
 
