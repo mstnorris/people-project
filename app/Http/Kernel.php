@@ -1,4 +1,4 @@
-<?php namespace popstat\Http;
+<?php namespace PopStat\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -15,7 +15,7 @@ class Kernel extends HttpKernel {
 		'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
-		'popstat\Http\Middleware\VerifyCsrfToken',
+		'PopStat\Http\Middleware\VerifyCsrfToken',
 	];
 
 	/**
@@ -24,9 +24,9 @@ class Kernel extends HttpKernel {
 	 * @var array
 	 */
 	protected $routeMiddleware = [
-		'auth' => 'popstat\Http\Middleware\Authenticate',
+		'auth' => 'PopStat\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-		'guest' => 'popstat\Http\Middleware\RedirectIfAuthenticated',
+		'guest' => 'PopStat\Http\Middleware\RedirectIfAuthenticated',
 	];
 
 }

@@ -1,4 +1,4 @@
-<?php namespace popstat;
+<?php namespace PopStat;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -31,9 +31,14 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 */
 	protected $hidden = ['password', 'remember_token'];
 
+    public function profile()
+    {
+        return $this->hasOne('PopStat\Profile');
+    }
+
 	public function roles()
     {
-        return $this->belongsToMany('popstat\Role')->withTimestamps();
+        return $this->belongsToMany('PopStat\Role')->withTimestamps();
     }
 
     public function assignRole($role)
@@ -57,5 +62,14 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         }
 
         return false;
+    }
+
+    public function getName()
+    {
+        if ( $this->profile->middle_name )
+        {
+            return $this->profile->first_name . ' ' . $this->profile->middle_name . ' ' . $this->profile->last_name;
+        }
+        return $this->profile->first_name . ' ' . $this->profile->last_name;
     }
 }

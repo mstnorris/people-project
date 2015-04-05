@@ -1,6 +1,6 @@
-<?php namespace popstat\Services;
+<?php namespace PopStat\Services;
 
-use popstat\User;
+use PopStat\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

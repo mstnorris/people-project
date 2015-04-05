@@ -140,12 +140,12 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'popstat\Providers\AppServiceProvider',
-		'popstat\Providers\BusServiceProvider',
-		'popstat\Providers\ConfigServiceProvider',
-		'popstat\Providers\EventServiceProvider',
-		'popstat\Providers\RouteServiceProvider',
-        'popstat\Providers\ViewComposerServiceProvider',
+		'PopStat\Providers\AppServiceProvider',
+		'PopStat\Providers\BusServiceProvider',
+		'PopStat\Providers\ConfigServiceProvider',
+		'PopStat\Providers\EventServiceProvider',
+		'PopStat\Providers\RouteServiceProvider',
+        'PopStat\Providers\ViewComposerServiceProvider',
 
         /*
          * Third Party Service Providers

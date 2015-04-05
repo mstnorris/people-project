@@ -1,4 +1,4 @@
-<?php namespace popstat\Http\Requests;
+<?php namespace PopStat\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,4 +1,4 @@
-<?php namespace popstat\Providers;
+<?php namespace PopStat\Providers;
 
 use Illuminate\Bus\Dispatcher;
 use Illuminate\Support\ServiceProvider;
@@ -16,7 +16,7 @@ class BusServiceProvider extends ServiceProvider {
 		$dispatcher->mapUsing(function($command)
 		{
 			return Dispatcher::simpleMapping(
-				$command, 'popstat\Commands', 'popstat\Handlers\Commands'
+				$command, 'PopStat\Commands', 'PopStat\Handlers\Commands'
 			);
 		});
 	}

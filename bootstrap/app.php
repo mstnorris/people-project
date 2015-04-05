@@ -28,18 +28,18 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
 	'Illuminate\Contracts\Http\Kernel',
-	'popstat\Http\Kernel'
+	'PopStat\Http\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Console\Kernel',
-	'popstat\Console\Kernel'
+	'PopStat\Console\Kernel'
 );
 
 $app->singleton(
 	'Illuminate\Contracts\Debug\ExceptionHandler',
-    'popstat\Exceptions\WhoopsHandler',
-	'popstat\Exceptions\Handler'
+    'PopStat\Exceptions\WhoopsHandler',
+	'PopStat\Exceptions\Handler'
 );
 
 /*

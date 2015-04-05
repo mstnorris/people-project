@@ -1,4 +1,4 @@
-<?php namespace popstat\Console;
+<?php namespace PopStat\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -11,7 +11,7 @@ class Kernel extends ConsoleKernel {
 	 * @var array
 	 */
 	protected $commands = [
-		'popstat\Console\Commands\Inspire',
+		'PopStat\Console\Commands\Inspire',
 	];
 
 	/**

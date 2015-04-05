@@ -1,8 +1,8 @@
-<?php namespace popstat\Exceptions;
+<?php namespace PopStat\Exceptions;
 
 use Exception;
 use Illuminate\Http\Response;
-use popstat\Exceptions\Handler as BaseExceptionHandler;
+use PopStat\Exceptions\Handler as BaseExceptionHandler;
 
 class WhoopsHandler extends BaseExceptionHandler {
 

@@ -1,4 +1,4 @@
-<?php namespace popstat\Providers;
+<?php namespace PopStat\Providers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;

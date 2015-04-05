@@ -1,6 +1,6 @@
-<?php namespace popstat\Http\Controllers\Auth;
+<?php namespace PopStat\Http\Controllers\Auth;
 
-use popstat\Http\Controllers\Controller;
+use PopStat\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\PasswordBroker;
 use Illuminate\Foundation\Auth\ResetsPasswords;

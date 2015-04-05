@@ -1,4 +1,4 @@
-<?php namespace popstat\Http\Controllers;
+<?php namespace PopStat\Http\Controllers;
 
 class HomeController extends Controller {
 

@@ -1,7 +1,7 @@
-<?php namespace popstat\Http\Controllers;
+<?php namespace PopStat\Http\Controllers;
 
-use popstat\Http\Requests;
-use popstat\Http\Controllers\Controller;
+use PopStat\Http\Requests;
+use PopStat\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 

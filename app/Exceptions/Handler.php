@@ -1,4 +1,4 @@
-<?php namespace popstat\Exceptions;
+<?php namespace PopStat\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

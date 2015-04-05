@@ -1,4 +1,4 @@
-<?php namespace popstat\Console\Commands;
+<?php namespace PopStat\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

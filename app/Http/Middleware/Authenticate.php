@@ -1,4 +1,4 @@
-<?php namespace popstat\Http\Middleware;
+<?php namespace PopStat\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

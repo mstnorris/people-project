@@ -1,4 +1,4 @@
-<?php namespace popstat\Providers;
+<?php namespace PopStat\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider {
 	{
 		$this->app->bind(
 			'Illuminate\Contracts\Auth\Registrar',
-			'popstat\Services\Registrar'
+			'PopStat\Services\Registrar'
 		);
 	}
 

@@ -1,4 +1,4 @@
-<?php namespace popstat\Commands;
+<?php namespace PopStat\Commands;
 
 abstract class Command {
 
